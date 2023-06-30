@@ -56,6 +56,14 @@
 		],
 		"description": "div output to div method"
 	},
+	"a() from <-wDatJS->": {
+		"scope": "javascript,typescript",
+		"prefix": "a",
+		"body": [
+			"a('$1',{href:'#$2',class:'$3',})",
+		],
+		"description": "a output to a method"
+	},
 	"h1() from <-wDatJS->": {
 		"scope": "javascript,typescript",
 		"prefix": "h1",
@@ -63,6 +71,14 @@
 			"h1('$1',{class:'$2'})",
 		],
 		"description": "h1 output to h1 method"
+	},
+	"h2() from <-wDatJS->": {
+		"scope": "javascript,typescript",
+		"prefix": "h2",
+		"body": [
+			"h2('$1',{class:'$2'})",
+		],
+		"description": "h2 output to h2 method"
 	},
 
 }
