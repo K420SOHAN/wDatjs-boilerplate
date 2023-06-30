@@ -1,7 +1,8 @@
 const render = ()=>{
    App(
       div(
-          h1('Hello World',{class:'text-primary'})
+          h1('Hello World',{class:'text-primary'})+
+          a('Home',{href:'./index.html',class:'text-warning',})
       ,{class:'container'})
    ).root('App');
    
